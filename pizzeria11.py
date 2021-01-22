@@ -22,7 +22,7 @@ class Extra():
         self.extra = ['Pimentón','Tofu', 'Pepperoni', 'Jamón', 'Salmón', 'mozzarella', 'tomate', 'ninguno']
 
     def __str__(self):
-        i = int(input('Escoge uno entre los siguientes extras: pimiento(1), tofu(2), pepperoni(3), jamón(4), salmón(5), mozzarella(6), tomate(7), ninguno(8): '))
+        i = int(input('Escoge uno de los siguientes extras: pimiento(1), tofu(2), pepperoni(3), jamón(4), salmón(5), mozzarella(6), tomate(7), ninguno(8): '))
         return 'Usted escogió el ingrediente extra: {} ¡Buen Provecho!'.format(self.extra[i-1])
 
 miPizza = Pizza()
