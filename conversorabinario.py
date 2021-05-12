@@ -1,3 +1,4 @@
+#este programa es para calcular los números binarios utilizando la técnica de dividir entre 2 que explican en el curso de Pensamiento Lógico.
 def calculo():
     decimal = int(input('Introduce un número: '))
     elegido = decimal
